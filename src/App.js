@@ -6,8 +6,12 @@ import exad from "./exad";
 const App = () => {
   return (
     <div>
+<<<<<<< HEAD
       마스터 급한 버그수정
       <Cont />
+=======
+    
+>>>>>>> development
       <br />
       <br />
       <Todos />
