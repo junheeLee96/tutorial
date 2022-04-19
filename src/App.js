@@ -6,6 +6,7 @@ import exad from "./exad";
 const App = () => {
   return (
     <div>
+      마스터 급한 버그수정
       <Cont />
       <br />
       <br />
