@@ -1,7 +1,7 @@
 import React from "react";
 
-const ex = () => {
+const exad = () => {
   return <div></div>;
 };
 
-export default ex;
+export default exad;

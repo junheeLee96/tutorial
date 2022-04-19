@@ -1,6 +1,7 @@
 import React from "react";
 import Cont from "./Cont";
 import Todos from "./Todos";
+import exad from "./exad";
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
           <br />
           <br />
           <Todos />
+          <exad />
         </div>
       </div>
     </div>
