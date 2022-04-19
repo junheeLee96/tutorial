@@ -6,15 +6,11 @@ import exad from "./exad";
 const App = () => {
   return (
     <div>
-      <div>
-        <div>
-          <Cont />
-          <br />
-          <br />
-          <Todos />
-          <exad />
-        </div>
-      </div>
+      <Cont />
+      <br />
+      <br />
+      <Todos />
+      <exad />
     </div>
   );
 };
