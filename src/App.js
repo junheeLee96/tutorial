@@ -2,12 +2,12 @@ import React from "react";
 import Cont from "./Cont";
 import Todos from "./Todos";
 import exad from "./exad";
+import Counter from "./Counter";
 
 const App = () => {
   return (
     <div>
-      마스터 급한 버그수정
-      <Cont />
+      <Counter />
       <br />
       <br />
       <Todos />

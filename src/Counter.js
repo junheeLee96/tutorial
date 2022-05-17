@@ -1,11 +1,16 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 
-const Counter = ({ onDecrease }) => {
-  const number = useSelector((state) => state.number);
+const Counter = () => {
+  const dispatch = useDispatch();
+  const number = useSelector((state) => state.cnt.number);
   const onIncrease = () => {
-    dispatchEvent({ type: "INCREASE" });
+    dispatch({ type: "cnt/INCREASE" });
   };
+  const onDecrease = () => {
+    dispatch({ type: "cnt/DECREASE" });
+  };
+  console.log(number);
   return (
     <div>
       <h1>{number}</h1>
